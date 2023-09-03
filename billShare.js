@@ -5,8 +5,6 @@ function submitBill() {
     billName = document.getElementById('userBill').value
     formCheck = document.querySelectorAll('.form-check')
     value = parseInt(value)
-    console.log(value === Number);
-    console.log(typeof value );
     cout = 0
     // check valueInput
     if (value === 0 || isNaN(value) || billName == "") {
